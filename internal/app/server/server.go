@@ -26,7 +26,7 @@ const (
 	LogLevelDebug  = "debug"
 	LogLevelInfo   = "info"
 	LogLevelError  = "error"
-	DefaultDataDir = "/var/lib/skeleton-node"
+	DefaultDataDir = "/var/lib/server-shadowsocks"
 )
 
 type Server struct {
@@ -45,8 +45,7 @@ func New(config *Config, apiConfig *api.Config, serviceConfig *service.Config, e
 	// API Client initialization
 	client := api.New(apiConfig)
 	if dataDir == "" {
-		// dataDir = DefaultDataDir // DefaultDataDir not defined? Use literal or invalid
-		dataDir = "/var/lib/skeleton-node"
+		dataDir = DefaultDataDir
 	}
 	return &Server{
 		config:        config,
