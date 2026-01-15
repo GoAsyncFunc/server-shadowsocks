@@ -45,7 +45,7 @@ jobs:
           go build -v -trimpath -ldflags "-s -w" -o build/${BINARY_NAME} ./cmd/server
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: shadowsocks-node-${{ matrix.goos }}-${{ matrix.goarch }}
           path: build/*
