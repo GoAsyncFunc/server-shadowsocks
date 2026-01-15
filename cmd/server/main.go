@@ -131,15 +131,6 @@ func main() {
 				Required:    false,
 				Destination: &dataDir,
 			},
-			&cli.StringFlag{
-				Name:        "node_type",
-				Usage:       "Node type",
-				EnvVars:     []string{"NODE_TYPE"},
-				Value:       "shadowsocks",
-				DefaultText: "shadowsocks",
-				Required:    false,
-				Destination: &apiConfig.NodeType,
-			},
 		},
 		Before: func(c *cli.Context) error {
 			log.SetFormatter(&log.TextFormatter{})
@@ -172,6 +163,7 @@ func main() {
 			}
 
 			// Ensure NodeType is set properly if default didn't work (cli v2 handles destination).
+			apiConfig.NodeType = api.Shadowsocks
 
 			serv, err := server.New(&config, &apiConfig, &serviceConfig, extFileBytes, dataDir)
 			if err != nil {

@@ -10,7 +10,7 @@ import (
 	"github.com/xtls/xray-core/infra/conf"
 )
 
-const shadowsocksProtocol = "shadowsocks"
+const shadowsocksProtocol = api.Shadowsocks
 
 // InboundBuilder builds Inbound config for Shadowsocks
 func InboundBuilder(config *Config, nodeInfo *api.NodeInfo) (*core.InboundHandlerConfig, error) {
