@@ -4,7 +4,7 @@ go 1.25.5
 
 require (
 	github.com/GoAsyncFunc/uniproxy v0.0.6
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/urfave/cli/v2 v2.27.7
 	github.com/xtls/xray-core v1.260113.0
 	google.golang.org/protobuf v1.36.11
