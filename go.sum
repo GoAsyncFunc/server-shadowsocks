@@ -1,7 +1,7 @@
 github.com/GoAsyncFunc/uniproxy v0.0.6 h1:jK6tLn99CJheiTAdcUovvc5zMrjgvHJ3gK1ufH5iiEM=
 github.com/GoAsyncFunc/uniproxy v0.0.6/go.mod h1:GlFRQLrcVD0wMl19AdsbVNNhUJI8Yt2M77GBHyXvJ20=
-github.com/GoAsyncFunc/xray-core v0.0.0-20260114133143-a384be0f8440 h1:9O+Qzi2JwoKJd4283ZhyuEwDIHyOzVhc1Lio7BkcysI=
-github.com/GoAsyncFunc/xray-core v0.0.0-20260114133143-a384be0f8440/go.mod h1:mpM5uBUeAHZahO1RfYsiVYaKj4a91VjCg68kWCaELCM=
+github.com/GoAsyncFunc/xray-core v0.0.0-20260118054307-7ff06f65eccd h1:fWA0IFIayNyRi0vgLdT7bHMB1qar9A6jSrXnybOIe3A=
+github.com/GoAsyncFunc/xray-core v0.0.0-20260118054307-7ff06f65eccd/go.mod h1:A5k7TXE2KfAjT8dAq6Ir4mMP1q0OTh+8VMmUdqWMQpg=
 github.com/andybalholm/brotli v1.2.0 h1:ukwgCxwYrmACq68yiUqwIWnGY0cTPox/M94sVwToPjQ=
 github.com/andybalholm/brotli v1.2.0/go.mod h1:rzTDkvFWvIrjDXZHkuS16NPggd91W3kUSvPlQ1pLaKY=
 github.com/apernet/quic-go v0.57.2-0.20260111184307-eec823306178 h1:bSq8n+gX4oO/qnM3MKf4kroW75n+phO9Qp6nigJKZ1E=

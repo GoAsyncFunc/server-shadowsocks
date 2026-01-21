@@ -1,12 +1,12 @@
 module github.com/GoAsyncFunc/server-shadowsocks
 
-go 1.25.5
+go 1.25.6
 
 require (
 	github.com/GoAsyncFunc/uniproxy v0.0.6
 	github.com/sirupsen/logrus v1.9.3
 	github.com/urfave/cli/v2 v2.27.7
-	github.com/xtls/xray-core v1.260113.0
+	github.com/xtls/xray-core v26.1.18+incompatible
 	google.golang.org/protobuf v1.36.11
 )
 
@@ -57,4 +57,4 @@ require (
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
 
-replace github.com/xtls/xray-core => github.com/GoAsyncFunc/xray-core v0.0.0-20260114133143-a384be0f8440
+replace github.com/xtls/xray-core => github.com/GoAsyncFunc/xray-core v0.0.0-20260118054307-7ff06f65eccd
