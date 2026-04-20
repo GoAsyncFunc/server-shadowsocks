@@ -3,7 +3,7 @@ module github.com/GoAsyncFunc/server-shadowsocks
 go 1.25.6
 
 require (
-	github.com/GoAsyncFunc/uniproxy v0.0.6
+	github.com/GoAsyncFunc/uniproxy v0.0.8
 	github.com/sirupsen/logrus v1.9.4
 	github.com/urfave/cli/v2 v2.27.7
 	github.com/xtls/xray-core v26.1.23+incompatible
